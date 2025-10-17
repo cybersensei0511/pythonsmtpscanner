@@ -37,6 +37,12 @@ This tool is an SMTP brute force scanner designed for ethical security testing a
 --delay: Delay between attempts in seconds (default: 1)
 --timeout: Connection timeout in seconds (default: 10)
 
+smtp_scanner/
+├── smtp_scanner.py     # The main Python script
+├── usernames.txt       # Supporting file (usernames)
+├── passwords.txt       # Supporting file (passwords)
+└── results.txt         # Output file (created after run)
+
 
 Ethical Considerations
 This tool is for educational and ethical security testing purposes only. Do not use it on systems you do not own or have explicit written permission to test. Unauthorized access is illegal and punishable by law.
